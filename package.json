@@ -1,0 +1,20 @@
+{
+  "name": "novoapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "codeceptjs run --grep @DefinicionVariablesExitosa --debug"
+  },
+  "keywords": [],
+  "author": "Julio Riestra",
+  "license": "ISC",
+  "devDependencies": {
+    "codeceptjs": "^2.0.4",
+    "mochawesome": "^3.1.1",
+    "puppeteer": "^1.11.0"
+  },
+  "dependencies": {
+    "xlsx": "^0.14.4"
+  }
+}
